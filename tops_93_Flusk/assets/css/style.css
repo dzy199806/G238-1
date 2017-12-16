@@ -24,7 +24,7 @@
 * {outline: none !important;}
 
 ::selection {
-	background-color: #475B6F;
+	background-color: #49575e;
 	color: #fff;
 }
 
@@ -37,11 +37,13 @@ html {
 }
 
 body {
-	color: #6a6a6a;
-	background: #f1f0f0;
+	color: #49575e;
+	background: #ffffff;
 }
 
-p {margin: 0 0 20px 0;	}
+p {
+	font-size: 17px;
+	margin: 0 0 20px 0;	}
 
 img {max-width: 100%;}
 
@@ -51,7 +53,7 @@ a {
 }
 
 a{
-	color: #4da7ca;
+	color: #0eceb4;
 	-o-transition: all .4s;
 	-ms-transition: all .4s;
 	-moz-transition: all .4s;
@@ -66,17 +68,17 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6{
 	margin: 0 0 15px 0;
-	color: #3A4F52;
+	color: #49575e;
 	font-family: 'Alegreya Sans';
 }
 
 .btn{border-radius: 0;}
 .btn-o {
-    border: 1px solid #3A4F52;
-    color: #3A4F52;
+    border: 1px solid #49575e;
+    color: #49575e;
 }
 .btn-o:hover {
-    background: #3A4F52;
+    background: #49575e;
     color: white;
 }
 .btn.btn-o-white {
@@ -86,7 +88,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .btn.btn-o-white:hover {
     background: white;
-    color: #6a6a6a;
+    color: #49575e;
 }
 .copyrights{
 	text-indent:-9999px;
@@ -145,7 +147,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .top.solid {
-    background: #475B6F;
+    background: #49575E;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -205,7 +207,7 @@ h1, h2, h3, h4, h5, h6{
     top: 0;
     bottom: 0;
     margin-right: -300px;
-    background: #2B3E51;
+    background: #49575e;
     width: 300px;
     padding: 20px;
     z-index: 999;
@@ -230,6 +232,10 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 
+#buttontext {
+
+    height: 100px;
+    line-height: 100px;}
 
 
 /*////////////////////////////////////////////////////////////////////////
@@ -271,7 +277,7 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #405162;
 }
 #parallax h1{
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	color: white;
 }
 
@@ -285,7 +291,7 @@ h1, h2, h3, h4, h5, h6{
 .recent-work {
     width: 100%;
     padding-bottom: 27%;
-    background: #C3C9CC;
+    background: #ffffff;
     display: table;
     text-align: center;
     vertical-align: middle;
@@ -414,7 +420,7 @@ h1, h2, h3, h4, h5, h6{
 ///////////////////////////////////////////////////////////////////////*/
 
 
-#footer{ background: #2B3E51; color: white;}
+#footer{ background: #49575e; color: white;}
 
 
 
