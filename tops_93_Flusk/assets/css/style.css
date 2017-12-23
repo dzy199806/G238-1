@@ -78,7 +78,7 @@ a {
 }
 
 a{
-	color: #0eceb4;
+	color: #ddd;
 	-o-transition: all .4s;
 	-ms-transition: all .4s;
 	-moz-transition: all .4s;
@@ -86,9 +86,7 @@ a{
 	transition: all .4s;
 }
 
-a:hover {
-	color: #4290ae;
-}
+
 
 
 h1, h2, h3, h4, h5, h6{
@@ -504,7 +502,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .portfolio-filter ul li a {
-	color: #ddd;
 	display: inline-block;
 	font-size: 24px;
 	margin: 10px 30px;
@@ -518,7 +515,7 @@ h1, h2, h3, h4, h5, h6{
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #ddd;
+	background: #FBC02D;
 	content: '';
 
 	-webkit-transition: top 0.3s;
@@ -533,7 +530,7 @@ h1, h2, h3, h4, h5, h6{
 	left: 0;
 	width: 2px;
 	height: 2px;
-	background: #ddd;
+	background:#FBC02D;
 	content: '';
 
 	-webkit-transition: height 0.3s;
