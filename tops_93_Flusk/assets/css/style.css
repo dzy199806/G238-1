@@ -97,12 +97,14 @@ h1, h2, h3, h4, h5, h6{
 
 .btn{border-radius: 0;}
 .btn-o {
-    border: 1px solid #49575e;
-    color: #49575e;
+	background: #49575e;
+	color: white;
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
 }
 .btn-o:hover {
     background: #49575e;
     color: white;
+		box-shadow:0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
 }
 .btn.btn-o-white {
     border: 1px solid white;
@@ -127,9 +129,19 @@ h1, h2, h3, h4, h5, h6{
 .shangkongbai70{
 	margin-top: 70px;
 }
+
+.shangkongbai50{
+	margin-top: 50px;
+}
+
 .shangxiakongbai50{
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.shangxiakongbai70{
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 /*////////////////////////////////////////////////////////////////////////
@@ -184,6 +196,7 @@ h1, h2, h3, h4, h5, h6{
     background: #49575E;
     padding-top: 15px;
     padding-bottom: 15px;
+		box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24);
 }
 
 #header .top h1{
@@ -199,8 +212,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .slogan{
-	font-size: 4em;
-	margin-bottom: 15px;
+	font-size: 5em;
+	margin-bottom: 25px;
 	line-height: 1em;
 	font-family: 'Nixie One';
 	color: white;
@@ -208,8 +221,8 @@ h1, h2, h3, h4, h5, h6{
 
 #header .secondary-slogan{
 	font-size: 1.6em;
-	color: rgba(255,255,255,.5);
-	line-height: 1em;
+	color: white;
+	line-height: 1.5em;
 	font-family: 'Alegreya SC';
 }
 
@@ -245,6 +258,7 @@ h1, h2, h3, h4, h5, h6{
     width: 300px;
     padding: 20px;
     z-index: 999;
+		box-shadow: 0 0 8px rgba(0,0,0,0.12), -8px 0 8px rgba(0,0,0,0.24);
 }
 
 #drawer-right h1, #drawer-right h2{color: white;}
@@ -267,7 +281,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #buttontext {
-
     height: 100px;
     line-height: 100px;}
 
@@ -301,7 +314,7 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 #parallax {
-	background-image: url(../images/blue_mac2.jpg);
+	background-image: url(../images/yellow_mac2.jpg);
 	color: white;
 }
 #contact {
@@ -312,6 +325,10 @@ h1, h2, h3, h4, h5, h6{
 #parallax h1{
 	margin-bottom: 30px;
 	color: white;
+	text-align: left;
+}
+#parallax p{
+text-align: left;
 }
 
 
@@ -334,6 +351,7 @@ h1, h2, h3, h4, h5, h6{
     background-position: center;
     position: relative;
     margin-bottom: 30px;
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
 }
 
 .recent-work span{
@@ -360,6 +378,7 @@ h1, h2, h3, h4, h5, h6{
 .recent-work:hover {
     background-size: 200%;
     background-position: center;
+		box-shadow:0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24)
 }
 .recent-work:hover:before, .recent-work:hover span {
     opacity: 1;
@@ -477,6 +496,8 @@ h1, h2, h3, h4, h5, h6{
 
 	.blog-post {
 		margin-bottom: 40px;
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+
 	}
 
 	.recent-work {
