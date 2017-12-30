@@ -129,21 +129,17 @@ h1, h2, h3, h4, h5, h6{
 .shangkongbai70{
 	margin-top: 70px;
 }
-
 .shangkongbai50{
 	margin-top: 50px;
 }
-
 .shangxiakongbai50{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
 .shangxiakongbai70{
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-
 /*////////////////////////////////////////////////////////////////////////
 //  02 - Header
 ///////////////////////////////////////////////////////////////////////*/
@@ -154,7 +150,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header.header-wrapper {
-	background: url(../images/header-bg.jpg) no-repeat center center;
+	background: url(../images/header-bg2.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
 	height: 80vh;
@@ -310,11 +306,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #services {
-	background-image: url(../images/traffic.jpg);
+	background-image: url(../images/paper.jpg);
 	color: white;
 }
 #parallax {
-	background-image: url(../images/yellow_mac2.jpg);
+	background-image: url(../images/yellow_bgimg2.jpg);
 	color: white;
 }
 #contact {
@@ -324,11 +320,13 @@ h1, h2, h3, h4, h5, h6{
 }
 #parallax h1{
 	margin-bottom: 30px;
+	margin-top: 30px;
 	color: white;
 	text-align: left;
 }
 #parallax p{
 text-align: left;
+margin-top: 17px
 }
 
 
