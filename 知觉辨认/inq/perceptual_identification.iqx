@@ -1,0 +1,483 @@
+﻿Design:汉字启动任务的知觉辨认范式
+
+step_1:定义item(功能：两个指导语，以及呈现的汉字，分为目标字和非目标字,以及标注的目标字)
+
+//指导语
+
+<item instruction1>
+/1="接下来，屏幕中央会呈现两个汉字~r~r其中一个汉字下面标有“*”的目标字，你要尽力记住所有目标字~r~r每一组汉字呈现之间，有短暂的停顿时间。"
+</item>
+
+<item instruction2>
+/2="接下来，屏幕正中央会依次呈现单个汉字~r~r你需要尽可能快而准确的判断这个字是目标字还是非目标字~r~r如果是目标字，按下“F”键，如果不是，按下“J”键~r~r每一个汉字呈现之间，有短暂的休息时间。"
+</item>
+
+<item anykeyitem>
+/ 1 = "如果您对指导语没有疑问，请按任意键开始实验"
+</item>
+
+<item ending>
+/1 ="感谢您的参与，请按任意键结束实验！！"
+</item>
+
+//目标字和非目标字    
+<item targetwordwithmark1>
+/	1	=	"出~r*"
+/	2	=	"自~r*"
+/	3	=	"用~r*"
+/	4	=	"在~r*"
+/	5	=	"他~r*"
+/	6	=	"而~r*"
+/	7	=	"代~r*"
+/	8	=	"地~r*"
+/	9	=	"正~r*"
+/	10	=	"成~r*"
+/	11	=	"外~r*"
+/	12	=	"有~r*"
+/	13	=	"民~r*"
+/	14	=	"西~r*"
+/	15	=	"白~r*"
+/	16	=	"妈~r*"
+/	17	=	"打~r*"
+/	18	=	"产~r*"
+/	19	=	"电~r*"
+/	20	=	"好~r*"
+/	21	=	"加~r*"
+/	22	=	"农~r*"
+/	23	=	"边~r*"
+/	24	=	"迁~r*"
+/	25	=	"让~r*"
+</item>
+
+<item targetwordwithmark2>
+/	1	=	"阳~r*"
+/	2	=	"市~r*"
+/	3	=	"亚~r*"
+/	4   =	"令~r*"
+/	5	=	"阶~r*"
+/	6	=	"宁~r*"
+/	7	=	"亦~r*"
+/	8	=	"记~r*"
+/	9	=	"同~r*"
+/	10	=	"尔~r*"
+/	11	=	"血~r*"
+/	12	=	"半~r*"
+/	13	=	"多~r*"
+/	14	=	"乎~r*"
+/	15	=	"而~r*"
+/	16	=	"丘~r*"
+/	17	=	"朱~r*"
+/	18	=	"母~r*"
+/	19	=	"曲~r*"
+/	20	=	"石~r*"
+/	21	=	"米~r*"
+/	22	=	"龙~r*"
+/	23	=	"肉~r*"
+/	24	=	"包~r*"
+/	25	=	"臣~r*"
+</item>
+
+<item targetword>
+/	1	=	"出"
+/	2	=	"自"
+/	3	=	"用"
+/	4	=	"在"
+/	5	=	"他"
+/	6	=	"而"
+/	7	=	"代"
+/	8	=	"地"
+/	9	=	"正"
+/	10	=	"成"
+/	11	=	"外"
+/	12	=	"有"
+/	13	=	"民"
+/	14	=	"西"
+/	15	=	"白"
+/	16	=	"妈"
+/	17	=	"打"
+/	18	=	"产"
+/	19	=	"电"
+/	20	=	"好"
+/	21	=	"加"
+/	22	=	"农"
+/	23	=	"边"
+/	24	=	"迁"
+/	25	=	"让"
+/	26	=	"阳"
+/	27	=	"市"
+/	28	=	"亚"
+/	29	=	"令"
+/	30	=	"阶"
+/	31	=	"宁"
+/	32	=	"亦"
+/	33	=	"记"
+/	34	=	"同"
+/	35	=	"尔"
+/	36	=	"血"
+/	37	=	"半"
+/	38	=	"多"
+/	39	=	"乎"
+/	40	=	"而"
+/	41	=	"丘"
+/	42	=	"朱"
+/	43	=	"母"
+/	44	=	"曲"
+/	45	=	"石"
+/	46	=	"米"
+/	47	=	"龙"
+/	48	=	"肉"
+/	49	=	"包"
+/	50	=	"臣"
+</item>
+
+<item notargetword>
+/	1	=	"节"
+/	2	=	"页"
+/	3	=	"汉"
+/	4	=	"竹"
+/	5	=	"礼"
+/	6	=	"羊"
+/	7	=	"左"
+/	8	=	"夹"
+/	9	=	"兰"
+/	10	=	"舌"
+/	11	=	"归"
+/	12	=	"虫"
+/	13	=	"皮"
+/	14	=	"舟"
+/	15	=	"尼"
+/	16	=	"妆"
+/	17	=	"印"
+/	18	=	"亥"
+/	19	=	"圣"
+/	20	=	"过"
+/	21	=	"奶"
+/	22	=	"戍"
+/	23	=	"卡"
+/	24	=	"如"
+/	25	=	"占"
+/	26	=	"会"
+/	27	=	"犯"
+/	28	=	"众"
+/	29	=	"达"
+/	30	=	"玄"
+/	31	=	"灭"
+/	32	=	"吕"
+/	33	=	"鸟"
+/	34	=	"年"
+/	35	=	"弗"
+/	36	=	"戏"
+/	37	=	"幼"
+/	38	=	"当"
+/	39	=	"矛"
+/	40	=	"动"
+/	41	=	"刊"
+/	42	=	"问"
+/	43	=	"厉"
+/	44	=	"机"
+/	45	=	"兄"
+/	46	=	"再"
+/	47	=	"句"
+/	48	=	"欢"
+/	49	=	"讨"
+/	50	=	"至"
+</item>
+
+
+<item notargetword1>
+/	1	=	"节~r"
+/	2	=	"页~r"
+/	3	=	"汉~r"
+/	4	=	"竹~r"
+/	5	=	"礼~r"
+/	6	=	"羊~r"
+/	7	=	"左~r"
+/	8	=	"夹~r"
+/	9	=	"兰~r"
+/	10	=	"舌~r"
+/	11	=	"归~r"
+/	12	=	"虫~r"
+/	13	=	"皮~r"
+/	14	=	"舟~r"
+/	15	=	"尼~r"
+/	16	=	"妆~r"
+/	17	=	"印~r"
+/	18	=	"亥~r"
+/	19	=	"圣~r"
+/	20	=	"过~r"
+/	21	=	"奶~r"
+/	22	=	"戍~r"
+/	23	=	"卡~r"
+/	24	=	"如~r"
+/	25	=	"占~r"
+</item>
+
+<item notargetword2>
+/	1	=	"会~r"
+/	2	=	"犯~r"
+/	3	=	"众~r"
+/	4	=	"达~r"
+/	5	=	"玄~r"
+/	6	=	"灭~r"
+/	7	=	"吕~r"
+/	8	=	"鸟~r"
+/	9	=	"年~r"
+/	10	=	"弗~r"
+/	11	=	"戏~r"
+/	12	=	"幼~r"
+/	13	=	"当~r"
+/	14	=	"矛~r"
+/	15	=	"动~r"
+/	16	=	"刊~r"
+/	17	=	"问~r"
+/	18	=	"厉~r"
+/	19	=	"机~r"
+/	20	=	"兄~r"
+/	21	=	"再~r"
+/	22	=	"句~r"
+/	23	=	"欢~r"
+/	24	=	"讨~r"
+/	25	=	"至~r"
+</item>
+step_2：定义stimulus (功能：定义汉字的呈现方式，首先是定义目标，选择规范那些刺激的格式，其次是字体，文字颜色，文字背景颜色)
+
+//指导语
+
+<text instruction1txt>
+/items = instruction1
+/ valign = center
+/ halign = center
+/ position = (50%, 50%)
+/fontstyle = ("宋体", 40pt)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+</text>
+
+<text instruction2txt>
+/items = instruction2
+/ valign = center
+/ halign = center
+/ position = (50%, 50%)
+/fontstyle = ("宋体", 40pt)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+</text>
+
+<text anykeytxt>
+/items = anykeyitem
+/vposition = 90%
+/fontstyle = ("宋体", 40pt)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+</text>
+
+<text ending>
+/items = ending
+/ valign = center
+/ halign = center
+/ position = (50%, 50%)
+/fontstyle = ("宋体", 48pt)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+</text>
+
+//汉字刺激
+
+<text targetlefttxt>
+/ items = targetwordwithmark1
+/ valign = center
+/ halign = center
+/ position = (40%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+/ select = noreplace
+</text>
+`
+<text targetrighttxt>
+/ items = targetwordwithmark1
+/ valign = center
+/ halign = center
+/ position = (60%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+/ select = noreplace
+</text>
+
+<text notargetlefttxt>
+/ items = notargetword1
+/ valign = center
+/ halign = center
+/ position = (40%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+/ select = noreplace
+</text>
+
+<text notargetrighttxt>
+/ items = notargetword2
+/ valign = center
+/ halign = center
+/ position = (60%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/txbgcolor = (0,0,0)
+/txcolor = (255,255,255)
+/ select = noreplace
+</text>
+
+<text targettxt>
+/ items = targetword
+/ valign = center
+/ halign = center
+/ position = (50%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/ select = noreplace
+</text>
+
+<text notargettxt>
+/ items = notargetword
+/ valign = center
+/ halign = center
+/ position = (50%, 50%)
+/ fontstyle = ("宋体", 10%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/ select = noreplace
+</text>
+
+step_3:定义trial
+
+<trial instruction1>
+/ validresponse = (anyresponse)
+/ stimulustimes = [1 = instruction1txt, anykeytxt]
+/ recorddata = false
+</trial>
+
+<trial instruction2>
+/ validresponse = (anyresponse)
+/ stimulustimes = [1 = instruction2txt, anykeytxt]
+/ recorddata = false
+</trial>
+
+<trial ending>
+/ validresponse = (anyresponse)
+/ stimulustimes = [1 = ending, anykeytxt]
+/ recorddata = false
+</trial>
+
+<trial target>
+/ pretrialpause = 250
+/ validresponse = ("F", "J")
+/ correctresponse = ("F")
+/ stimulusframes = [1 = targettxt]
+/ posttrialpause = 250
+</trial>
+
+<trial notarget>
+/ pretrialpause = 250
+/ validresponse = ("F", "J")
+/ correctresponse = ("J")
+/ stimulusframes = [1 = notargettxt]
+/ posttrialpause = 250
+</trial>
+
+<trial learnA1>
+/ pretrialpause = 250
+/trialduration = 250
+/stimulusframes = [1=targetlefttxt,notargetrighttxt]
+</trial>
+
+<trial learnA2>
+/ pretrialpause = 250
+/trialduration = 250
+/stimulusframes = [1=notargetlefttxt,targetrighttxt]
+</trial>
+
+<trial learnB1>
+/ pretrialpause = 250
+/trialduration = 500
+/stimulusframes = [1=targetlefttxt,notargetrighttxt]
+</trial>
+
+<trial learnB2>
+/ pretrialpause = 250
+/trialduration = 500
+/stimulusframes = [1=notargetlefttxt,targetrighttxt]
+</trial>
+
+<trial learnC1>
+/ pretrialpause = 250
+/trialduration = 750
+/stimulusframes = [1=targetlefttxt,notargetrighttxt]
+</trial>
+
+<trial learnC2>
+/ pretrialpause = 250
+/trialduration = 750
+/stimulusframes = [1=notargetlefttxt,targetrighttxt]
+</trial>
+
+step_4: 定义block (功能：定义试次的呈现顺序和一些基本设定信息)
+
+<block instruction1blk>
+/ screencolor = (0, 0, 0)
+/ trials = [1 = instruction1]
+</block>
+
+<block instruction2blk>
+/ screencolor = (0, 0, 0)
+/ trials = [1 = instruction2]
+</block>
+
+<block learnA>
+/ screencolor = (0, 0, 0)
+/ trials = [1-50=noreplace(learnA1,learnA2)]
+</block>
+
+<block learnB>
+/ screencolor = (0, 0, 0)
+/ trials = [1-50=noreplace(learnB1,learnB2)]
+</block>
+
+<block learnC>
+/ screencolor = (0, 0, 0)
+/ trials = [1-50=noreplace(learnC1,learnC2)]
+</block>
+
+<block test>
+/ screencolor = (0, 0, 0)
+/ trials = [1-50 = noreplace(target, notarget)]
+</block>
+
+<block ending>
+/ screencolor = (0, 0, 0)
+/ trials = [1 = ending]
+</block>
+
+step_5: 定义experiment (功能：定义实验如何设定区块)
+
+<expt>
+/ subjects = (1 Of 3)
+/ blocks = [1 = instruction1blk; 2 = learnA; 3 = instruction2blk; 4 = test; 5= ending]
+</expt>
+
+<expt>
+/ subjects = (2 Of 3)
+/ blocks = [1 = instruction1blk; 2 = learnB; 3 = instruction2blk; 4 = test; 5= ending]
+</expt>
+
+<expt>
+/ subjects = (3 Of 3)
+/ blocks = [1 = instruction1blk; 2 = learnC; 3 = instruction2blk; 4 = test; 5= ending]
+</expt>
+
+
+
+
+
+
+

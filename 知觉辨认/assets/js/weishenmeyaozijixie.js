@@ -1,0 +1,26 @@
+
+$(document).ready(function(){
+  $(yi).click(function(){
+    $(n1).insertAfter($(zzz));
+  });
+});
+$(document).ready(function(){
+  $(er).click(function(){
+    $(n2).insertAfter($(zzz));
+  });
+});
+$(document).ready(function(){
+  $(san).click(function(){
+    $(n3).insertAfter($(zzz));
+  });
+});
+$(document).ready(function(){
+  $(si).click(function(){
+    $(n4).insertAfter($(zzz));
+  });
+});
+$(document).ready(function(){
+  $(wu).click(function(){
+    $(n5).insertAfter($(zzz));
+  });
+});

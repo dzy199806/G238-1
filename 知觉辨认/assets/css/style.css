@@ -15,8 +15,26 @@
 * 11.0 - Responsive styles
 * -----------------------------------------------------------------------------
 */
-/**wai bu ban yun */
+.wenbenkuang{
+	font-size: 14px;
+	color: #49575e;
+	font-weight: 300;
+	background-color: #fff;
+	padding: 30px;
 
+}
+.paiqilai{
+	float:left;
+	display: block;
+}
+.shadowfordiv{
+background-color: white;
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+
+
+}
+
+/**wai bu ban yun */
 
 .nav-arrows span {
 	position: absolute;
@@ -93,7 +111,7 @@ a{
 h1, h2, h3, h4, h5, h6{
 	margin: 0 0 15px 0;
 	color: #49575e;
-	font-family: '.PingFang SC0'
+	font-family: 'Alegreya Sans';
 }
 
 .btn{border-radius: 0;}
@@ -141,7 +159,11 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-/*////////////////////////////////////////////////////////////////////////
+.xiakongbai30{
+	margin-bottom: 30px;
+}
+
+	/*////////////////////////////////////////////////////////////////////////
 //  02 - Header
 ///////////////////////////////////////////////////////////////////////*/
 
@@ -204,23 +226,24 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .logo, #header .toggleDrawer{
-	font-family: '.PingFang SC0';
+	font-family: 'Alegreya SC';
 	color: white;
 }
 
 #header .slogan{
-	font-size: 6em;
+	font-size: 5em;
+	font-weight: 800;
 	margin-bottom: 25px;
 	line-height: 1em;
-	font-family: '.PingFang SC0';
+	font-family: 'Nixie One';
 	color: white;
 }
 
 #header .secondary-slogan{
-	font-size: 2em;
+	font-size: 1.6em;
 	color: white;
 	line-height: 1.5em;
-	font-family: '.PingFang SC0';
+	font-family: 'Alegreya SC';
 }
 
 #header .bottom {
@@ -410,7 +433,9 @@ margin-top: 17px
 
 
 #blog .blog-post img {
+		width: 75%;
     margin-bottom: 20px;
+		margin-top: 50px;
 }
 #blog .date {
     margin-bottom: 15px;
